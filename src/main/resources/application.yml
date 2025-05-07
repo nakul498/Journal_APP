@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: Journal App
+  data:
+    mongodb:
+      uri: mongodb+srv://nakulMehra:Mongo123@cluster0.hvonpnd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journalDB
+      auto-index-creation: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: nakulmehra0214@gmail.com
+    password: fywh pwsa mmjs ptot
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+
+
+weather:
+  api:
+    key: b09dcf9f8cd04b21b7421a73f7f76702
+#logging:
+#  level:
+#    com:
+#      educ:
+#        journalApp: DEBUG
