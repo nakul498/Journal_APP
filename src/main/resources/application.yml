@@ -1,6 +1,8 @@
 spring:
   application:
     name: Journal App
+  redis:
+    uri: redis-cli -u redis://default:UCvqaTHOvF6ondU4O37n3DS1chBihB7q@redis-12224.crce182.ap-south-1-1.ec2.redns.redis-cloud.com:12224
   data:
     mongodb:
       uri: mongodb+srv://nakulMehra:Mongo123@cluster0.hvonpnd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
